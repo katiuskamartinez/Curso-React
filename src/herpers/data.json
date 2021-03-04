@@ -1,0 +1,29 @@
+{
+    "framewoks":[
+        {
+            "id":1,
+            "nombre":"react",
+            "web":"https://reactjs.org"
+        },
+         {
+            "id":2,
+            "nombre":"angular",
+            "web":"https://angular.io"
+        },
+         {
+            "id":3,
+            "nombre":"vue",
+            "web":"https://vuejs.org"
+        },
+         {
+            "id":4,
+            "nombre":"polymer",
+            "web":"https://polymer-project.org"
+        },
+         {
+            "id":5,
+            "nombre":"svelte",
+            "web":"https://svelte.dev"
+        }
+    ]
+}
