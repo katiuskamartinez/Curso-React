@@ -41,7 +41,7 @@ export default class AjaxApis extends Component {
   render() {
     return (
       <>
-        <h2>Peticiones Asiscronas en Componentes de Clase</h2>
+        <h2>Peticiones Asincronas en Componentes de Clase</h2>
         {this.state.pokemons.length === 0 ? (
           <h3>Cargando...</h3>
         ) : (

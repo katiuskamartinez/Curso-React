@@ -4,21 +4,21 @@ export default function ScrollHooks() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    console.log("Movimiento de scroll");
+    //console.log("Movimiento de scroll");
     const detectarScroll = () => setScrollY(window.pageYOffset);
 
     window.addEventListener("scroll", detectarScroll());
     return () => window.removeEventListener("scroll", detectarScroll());
   }, [scrollY]);
   useEffect(() => {
-    console.log("face de Montaje");
+    //console.log("face de Montaje");
   }, []);
   useEffect(() => {
-    console.log("face de Actualización");
+    //console.log("face de Actualización");
   });
   useEffect(() => {
     return () => {
-      console.log("face de Desmontaje");
+      //console.log("face de Desmontaje");
     };
   });
   return (
