@@ -1,3 +1,4 @@
+/* eslint-disable no-throw-literal */
 import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
